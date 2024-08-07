@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.5); /* Transparent white background */
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home-container,
+.landing-container,
+.login-container,
+.register-container,
+.company-details-container,
+.apply-job-container {
+  padding: 2rem;
+}
+
+.ceos,
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+}

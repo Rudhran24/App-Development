@@ -1,0 +1,127 @@
+/* src/components/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #1bb79d; /* Background color */
+}
+
+.gifs-container {
+    width: 500px; /* Set width */
+    height: 500px; /* Set height */
+    background: url('./Gifs/background.gif') no-repeat center center;
+    background-size: cover;
+    border-radius: 8px;
+    margin-right: 10px; /* Space between GIF and form */
+}
+
+.form-container {
+    width: 500px; /* Set width */
+    height: 500px; /* Set height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(3, 84, 45, 0.9); /* Slightly transparent background for form */
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; /* Include padding and border in element’s total width */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-group {
+    width: 500px; 
+    padding-right: 40px;
+    margin-bottom: 20px; 
+    position: relative;
+    left: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.input, .form-control {
+    width: 100%; /* Set input field width to fill container */
+    height: 40px; /* Set input field height */
+    font-size: 16px; /* Input text size */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.input.is-invalid, .form-control.is-invalid {
+    border-color: #dc3545; /* Red border for invalid input */
+}
+
+.invalid-feedback {
+    color: #dc3545; /* Red color for error message */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.submit {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0, 247, 127, 0.9); 
+    position: relative;
+    left: -140px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: white ;
+    box-shadow: black(0.2,0.2,0.2,0.4);
+    color: rgba(3, 84, 45, 0.9);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.register-link-container {
+    margin-top: 20px; 
+    text-align: center; 
+    position: relative;
+    right: 140px;
+    top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.register-link {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* Link color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    text-decoration: none; /* Underline text */
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 180px;
+    bottom: 45px;
+    font-size: 20px;
+}
+
+.register-link:hover {
+    color: white; /* Darker color on hover */
+}

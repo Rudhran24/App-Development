@@ -1,0 +1,65 @@
+/* src/components/AddJob.css */
+
+.add-job-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .add-job-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .add-job-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-job-container div {
+    margin-bottom: 15px;
+  }
+  
+  .add-job-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-job-container input[type="text"],
+  .add-job-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .add-job-container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .add-job-container button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-job-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-job-container button:focus {
+    outline: none;
+  }
+  

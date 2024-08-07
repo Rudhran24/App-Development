@@ -1,0 +1,89 @@
+.dashboard-container {
+    background-image: url('./Gifs/landing.gif'); /* Path to your GIF file */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the background covers the full viewport height */
+    padding: 20px;
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+  }
+  
+  .sidebar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    margin-top: 0;
+  }
+  
+  .main-content p {
+    color: #6c757d;
+  }
+  .search-bar {
+    width: 100%;
+    padding: 5px; /* Reduce padding to decrease height */
+    height: 10px; /* Set a fixed height */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .main-content {
+    flex: 3;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px; /* Space between sidebar and main content */
+  }
+  button {
+    margin-bottom: 10px; /* Space between buttons */
+  }
+  .search-bar {
+    width: 100%; /* Adjust the width to make the search bar smaller */
+    max-width: 300px; /* Optional: Set a maximum width */
+    padding: 5px; /* Reduce padding to decrease height */
+    height: 30px; /* Set a fixed height */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+  }
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }

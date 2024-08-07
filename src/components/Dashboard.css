@@ -1,0 +1,41 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .companies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .company-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .company-card img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
+  .apply-job-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-job-button:hover {
+    background-color: #0056b3;
+  }
+  

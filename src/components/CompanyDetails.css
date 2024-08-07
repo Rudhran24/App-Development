@@ -1,0 +1,40 @@
+/* CompanyDetails.css */
+
+.container {
+    background: url('./Gifs/landing.gif') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .company-details {
+    /* Adjust the width to your preference */
+    max-width: 1000px; /* Increase the width as needed */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background color with opacity */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+    padding: 20px; /* Optional: Add padding inside the container */
+  }
+  
+  /* Additional styling for form container */
+  .form-container {
+    margin-top: 20px;
+    max-width: 1000px; /* Ensure the form container is also wider */
+  }
+  .company-logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  button {
+    margin-right: 10px; /* Space between the two buttons */
+  }
+  
+  .back-button {
+    margin-top: 10px; /* Space above the back button */
+  }
+  
+  .submission-message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
