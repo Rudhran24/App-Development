@@ -1,0 +1,77 @@
+/* src/components/Profile.css */
+
+/* Apply background GIF to the body */
+body {
+    background-image: url('./Gifs/landing.gif'); /* Replace with the path to your GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Ensures the background stays fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents repeating the GIF */
+    height: 100vh; /* Full height */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+/* Profile container styling */
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(248, 249, 250, 0.9); /* Semi-transparent background to let the GIF show through */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure the container has relative positioning */
+    z-index: 1; /* Ensure the container is on top of the background */
+}
+
+.profile-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-container div {
+    margin-bottom: 15px;
+}
+
+.profile-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="email"],
+.profile-container input[type="password"],
+.profile-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.profile-container input[type="file"] {
+    padding: 3px;
+}
+
+.profile-container img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.profile-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+}
+
+.profile-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}

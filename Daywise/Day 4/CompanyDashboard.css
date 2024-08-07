@@ -1,0 +1,101 @@
+/* CompanyDashboard.css */
+
+.company-dashboard {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.sidebar {
+  background-color: white; /* Dark background for the sidebar */
+  color: black;
+  padding: 20px;
+  height: 100vh; /* Full height sidebar */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow for sidebar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar h2 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .btn-primary {
+  background-color: #007bff;
+  border: none;
+  position: relative;
+  left: -5px;
+}
+
+.sidebar .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.sidebar .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  position: relative;
+  left: -5px;
+}
+
+.sidebar .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.sidebar .btn-success {
+  background-color: #28a745;
+  border: none;
+  position: relative;
+  left: -5px;
+}
+
+.sidebar .btn-success:hover {
+  background-color: #218838;
+}
+
+.sidebar .btn-danger {
+  background-color: #dc3545;
+  border: none;
+  position: relative;
+  left: -5px;
+}
+
+.sidebar .btn-danger:hover {
+  background-color: #c82333;
+}
+
+.content {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for main content */
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.content .card {
+  margin-bottom: 20px;
+}

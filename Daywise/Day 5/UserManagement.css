@@ -1,0 +1,50 @@
+/* UserManagement.css */
+
+.user-management-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-management-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  .applicants-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .applicants-table thead {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .applicants-table th,
+  .applicants-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .action-button {
+    padding: 8px 16px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+    filter: brightness(90%);
+  }
+  

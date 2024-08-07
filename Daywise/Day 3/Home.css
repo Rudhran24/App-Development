@@ -1,0 +1,120 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 2px solid #007bff;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  height: 50px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  height: 50px;
+  border: 2px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  bottom: 1px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #666;
+}
